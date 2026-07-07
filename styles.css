@@ -309,6 +309,7 @@ h2 {
   .hero {
     min-height: 140vh;
     padding: 2rem 1rem 4rem;
+    background-attachment: scroll;
   }
 
   .band-title {
