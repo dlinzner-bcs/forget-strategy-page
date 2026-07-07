@@ -194,6 +194,68 @@ h2 {
   padding-top: 0;
 }
 
+.comment-board {
+  padding: 0 1.5rem 5rem;
+}
+
+.comment-shell {
+  grid-template-columns: 1fr 1fr;
+}
+
+.comment-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.comment-form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.comment-label {
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  padding: 0.8rem 0.9rem;
+  border-radius: 12px;
+  font: inherit;
+}
+
+.comment-form button {
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.comment-example {
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.comment-example p {
+  margin: 0 0 0.35rem;
+}
+
+.comment-example span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .about-shell {
   width: min(100%, 1000px);
   margin: 0 auto;
@@ -268,8 +330,13 @@ h2 {
     width: min(100%, calc(100vw - 1rem));
   }
 
-  .contact-shell {
+  .contact-shell,
+  .comment-shell {
     grid-template-columns: 1fr;
+  }
+
+  .comment-board {
+    padding: 0 1rem 4rem;
   }
 
   .members-card {
