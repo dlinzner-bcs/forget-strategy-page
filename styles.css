@@ -249,6 +249,7 @@ h2 {
     padding: 2rem 1rem 4rem;
     background-size: 220% auto;
     background-position: center 25%;
+    background-attachment: fixed;
   }
 
   .band-title {
