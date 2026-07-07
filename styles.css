@@ -245,10 +245,10 @@ h2 {
 
 @media (max-width: 760px) {
   .hero {
-    min-height: 120vh;
+    min-height: 110vh;
     padding: 2rem 1rem 4rem;
-    background-size: 180% auto;
-    background-position: center 22%;
+    background-size: 220% auto;
+    background-position: center 25%;
   }
 
   .band-title {
